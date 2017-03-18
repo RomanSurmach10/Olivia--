@@ -102,31 +102,42 @@ body {
     border-bottom-right-radius: 12px;
     text-decoration:none; 
 }
-.iphones-header {
+.iphones {
   margin-top: 25px;
 }
 img.iphone-one {
   float: right;
-  margin-right: 100px;
+  margin-right: 60px;
+  width: 165px;
+  height: 300px;
 }
 img.iphone-two {
   float: right;
   margin-right: -240px;
+  width: 165px;
+  height: 300px;
 }
-.some-information-header {
+.lower-header .information {
   color: #fff;
 }
-.some-information-header h3 {
+.lower-header .information h3 {
   text-shadow: 1px 1px 2px #614c97;
   -webkit-text-shadow: 1px 1px 2px #614c97;
   -moz-text-shadow: 1px 1px 2px #614c97;
   margin-top: 60px;
 }
-.some-information-header p {
+.lower-header .information p {
   width: 350px;
 }
-.some-information-header h4 {
+.lower-header .information h4 {
   margin-top: 20px;
+}
+.lower-header .information a img {
+  width: 110px;
+  height: 40px;
+}
+.lower-header .information a img:last-child {
+  margin-left: 10px;
 }
 
 /* -- FEATURES --*/
@@ -223,17 +234,22 @@ img.iphone-two {
   font-size: 34px;
   text-align: center;
 }
-.image-text {
+.newapp-information {
   margin-left: 130px;
 }
-.image-text b {
+.newapp-information b {
   margin-left: 10px;
   font-size: 16px;
 }
-.image-text p {
+.newapp-information p {
   width: 392px;
   font-size: 14px;
   margin-left: 44px;
+}
+.iphone-in-hand {
+  width: 370 px;
+  height: 357px;
+  margin-top: 18px;
 }
 
 /* -- SCREENSHOTS --*/
@@ -274,6 +290,8 @@ img.iphone-two {
 .testimonial-photo {
   margin-top: 50px;
   float: right;
+  width: 140px;
+  height: 140px;
 }
 .testimonial p {
   width: 620px;
@@ -291,6 +309,8 @@ img.iphone-two {
 
 .support i {
   color: #3b434d;
+  font-size: 20px;
+  margin: 8px;
 }
 .support i:hover {
   color: #a62ad7;
@@ -301,12 +321,16 @@ img.iphone-two {
   font-size: 34px;
   text-align: center;
 }
-.support span {
+.support-email-tel {
   color: #3b434d;
   font-size: 20px;
   margin-left: 387px;
 }
-
+.text-margin {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .support-photos-left {
   float: right;
   width: 150px;
@@ -317,12 +341,13 @@ img.iphone-two {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  width: 140px;
+  height: 140px;
 }
 .support-photos-left img:first-child {
   margin-top: 85px;
   margin-bottom: 50px;
 }
-
 .support-information-left {
   float: right;
   min-width: 200px;
@@ -331,6 +356,7 @@ img.iphone-two {
 }
 .support-information-left p {
   text-align: right;
+  width: 200px;
 }
 .support-information-left p:nth-child(2) {
   margin-top: 50px;
@@ -346,12 +372,13 @@ img.iphone-two {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  width: 140px;
+  height: 140px;
 }
 .support-photos-right img:first-child {
   margin-top: 85px;
   margin-bottom: 50px;
 }
-
 .support-information-right {
   float: left;
   min-width: 200px;
@@ -360,11 +387,15 @@ img.iphone-two {
 }
 .support-information-right p {
   text-align: left;
+  width: 200px;
 }
 .support-information-right p:nth-child(2) {
   margin-top: 50px;
 }
 
+.support-i {
+  font-size: 20px;
+}
 /* -- NEWLETTER -- */
 
 .newsletter {
@@ -552,13 +583,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8eef', end
   background: linear-gradient(to right, rgba(178,87,224,1) 0%, rgba(123,142,239,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b257e0', endColorstr='#7b8eef', GradientType=1 );
 }
-
 .feedback h4 {
   margin: 50px auto 18px;
   font-size: 34px;
   text-align: center;
   color: #fff;
-}.feedback p {
+}
+.feedback p {
   width: 750px;
   margin: 0 auto;
   color: #fff;
@@ -578,13 +609,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8eef', end
 .four-fields-for-info input:first-child {
   margin-left: 0px;
 }
-
-
 .four-fields-for-info input::-webkit-input-placeholder {
   color: #3b434d;
   font-size: 12px;
 }
-
 .comments input {
   width: 800px;
   height: 150px;
@@ -596,7 +624,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8eef', end
   color: #3b434d;
   font-size: 12px;
 }
-
 .submit-comment-button {
   width: 450px;
   height: 36px;
@@ -612,7 +639,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8eef', end
   margin: 26px auto;
   text-align: center;
 }
-
 .social a i {
  font-size: 25px;
   width: 40px;
